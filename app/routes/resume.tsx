@@ -5,6 +5,9 @@ import Summary from "~/components/Summary";
 import ATS from "~/components/ATS";
 import Details from "~/components/Details";
 
+
+
+
 export const meta = () =>([
     { title: 'JobFit | Review'},
     { name: 'description', content:'Detailed overview of your resume' },
@@ -15,7 +18,7 @@ const Resume = () =>{
     const { id } = useParams();
     const [imageUrl, setImageUrl] = useState('');
     const [resumeUrl, setResume] = useState('');
-    const [feedback, setFeedback] = useState<feedback | null>(null);
+    const [feedback, setFeedback] = useState<Feedback | null>(null);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -77,7 +80,7 @@ const Resume = () =>{
                     {feedback ? (
                         <div className="flex flex-col gap-8 animate-in fade-in duration-1000">
                             <Summary feedback={feedback}/>
-                            <ATS score={feedback.ATS.score || 0}  suggestions={feedback.ATS.tips || {}}/>
+                            <ATS score={feedback.ATS.score || 0} suggestions={feedback.ATS.tips || {}}/>
                             <Details feedback={feedback}/>
                         </div>
                     ) : (
