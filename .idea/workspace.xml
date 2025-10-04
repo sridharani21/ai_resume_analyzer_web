@@ -21,7 +21,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "git@github.com:sridharani21/resume-analyzer.git",
+    "url": "git@github.com:sridharani21/resume-analyzer--webstorm.git",
     "accountId": "b9361dcc-c3b8-4698-b1ed-cb636662fea1"
   }
 }]]></component>
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759468077904</updated>
-      <workItem from="1759468078660" duration="47752000" />
+      <workItem from="1759468078660" duration="47922000" />
     </task>
     <servers />
   </component>
