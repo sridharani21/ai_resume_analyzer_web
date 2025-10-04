@@ -1,7 +1,26 @@
-.DS_Store
-.env
+# Node modules
 /node_modules/
 
-# React Router
+# Environment variables
+.env
+
+# React Router build folder
 /.react-router/
+
+# Build / distribution folders
 /build/
+/dist/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: OS temporary files
+Thumbs.db
