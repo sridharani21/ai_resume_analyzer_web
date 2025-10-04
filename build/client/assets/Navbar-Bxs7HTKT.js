@@ -1,0 +1,1 @@
+import{p as a,v as s}from"./chunk-NISHYRIK-BG5q60em.js";const e=()=>a.jsxs("nav",{className:"navbar",children:[a.jsx(s,{to:"/",children:a.jsx("p",{className:"text-2xl font-bold text-gradient",children:"JOBFIT"})}),a.jsx(s,{to:"upload",className:"primary-button w-fit",children:"Upload Resume"})]});export{e as N};
